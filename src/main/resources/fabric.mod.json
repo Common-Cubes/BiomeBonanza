@@ -3,13 +3,13 @@
 	"id": "biomebonanza",
 	"version": "${version}",
 	"name": "BiomeBonanza",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A World-Expanding Minecraft Mod",
 	"authors": [
-		"Me!"
+		"Common Cubes"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Common-Cubes",
+		"sources": "https://github.com/Common-Cubes/BiomeBonanza/"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/biomebonanza/icon.png",
