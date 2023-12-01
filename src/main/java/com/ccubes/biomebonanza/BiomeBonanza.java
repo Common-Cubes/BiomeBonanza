@@ -1,5 +1,6 @@
 package com.ccubes.biomebonanza;
 
+import com.ccubes.biomebonanza.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
