@@ -1,4 +1,4 @@
-![Title Image](https://github.com/CyoNearYou/file-storage/blob/extra/minecraft_title_all.png?raw=true)
+![](https://github.com/CyoNearYou/file-storage/blob/extra/minecraft_title_all.png?raw=true)
 # BiomeBonanza
 A World-Expanding Minecraft Mod.
 
