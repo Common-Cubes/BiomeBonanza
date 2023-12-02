@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
   public static final Item JADE = registerItem("jade", new Item(new FabricItemSettings()));
+  public static final Item ROSE_GOLD_INGOT = registerItem("rose_gold_ingot", new Item(new FabricItemSettings()));
   
   private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     entries.add(JADE);
+    entries.add(ROSE_GOLD_INGOT);
   }
   
 private static Item registerItem(String name, Item item) {
