@@ -10,5 +10,4 @@ What Biome Bonanza aims to achieve is a level of perfection most Minecraft moddi
 
 Feel free to leave feedback. For example, you could send an email, you can reach us at contacting.cubes@gmail.com hopefully we will see it and can improve upon your request! Another way you could is through GitHub's "Discussions" page on our project, if we have anything meaningful to say we will try to reply as soon as we can. We are working on getting more ways for you to get in touch with our team, but for now there are none. Sorry.
 
-
 ![](https://github.com/CyoNearYou/file-storage/blob/main/file%20(5).png?raw=true)

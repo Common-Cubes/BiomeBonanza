@@ -14,5 +14,6 @@ public class BiomeBonanza implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("A Bonanza of Biomes are Ready to Explore! (And More!)");
 		ModItems.registerModItems();
+
 	}
 }
