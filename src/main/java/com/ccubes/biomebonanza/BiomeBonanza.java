@@ -1,5 +1,6 @@
 package com.ccubes.biomebonanza;
 
+import com.ccubes.biomebonanza.block.ModBlocks;
 import com.ccubes.biomebonanza.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class BiomeBonanza implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("A Bonanza of Biomes are Ready to Explore! (And More!)");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

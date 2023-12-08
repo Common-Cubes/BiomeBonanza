@@ -1,5 +1,7 @@
 {
   "item.biomebonanza.jade": "Polished Jade",
   "item.biomebonanza.rose_gold_ingot": "Rose Gold Ingot",
-  "item.biomebonanza.copper_nugget": "Copper Nugget"
+  "item.biomebonanza.copper_nugget": "Copper Nugget",
+
+  "block.biomebonanza.raw_jade": "Block of Jade"
 }

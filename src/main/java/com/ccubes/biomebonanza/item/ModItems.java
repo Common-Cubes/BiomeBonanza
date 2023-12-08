@@ -1,5 +1,6 @@
 package com.ccubes.biomebonanza.item;
 
+import com.ccubes.biomebonanza.block.ModBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -20,6 +21,9 @@ public class ModItems {
     entries.add(ROSE_GOLD_INGOT);
     entries.add(COPPER_NUGGET);
   }
+  private static void addItemsToBuilingBlocksItemGroup(FabricItemGroupEntries entries) {
+    entries.add(ModBlocks.RAW_JADE);
+  }
   
 private static Item registerItem(String name, Item item) {
   return Registry.register(Registries.ITEM, new Identifier(BiomeBonanza.MOD_ID, name), item);
@@ -28,6 +32,7 @@ private static Item registerItem(String name, Item item) {
   public static void registerModItems() {
     BiomeBonanza.LOGGER.info("Registering a bonanza of mod items! (" + BiomeBonanza.MOD_ID + ")");
 
-    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuilingBlocksItemGroup);
   }
 }
