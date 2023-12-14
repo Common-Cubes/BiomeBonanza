@@ -25,6 +25,7 @@ public class ModItems {
   }
   private static void addItemsToBuilingBlocksItemGroup(FabricItemGroupEntries entries) {
     entries.add(ModBlocks.RAW_JADE);
+    entries.add(ModBlocks.COBALT_ORE);
   }
   
 private static Item registerItem(String name, Item item) {

@@ -14,8 +14,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block RAW_JADE = registerBlock("raw_jade",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK).mapColor(MapColor.PALE_GREEN).sounds(BlockSoundGroup.STONE)));
+    public static final Block RAW_JADE = registerBlock("raw_jade", new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK).mapColor(MapColor.PALE_GREEN).sounds(BlockSoundGroup.STONE)));
+    public static final Block COBALT_ORE = registerBlock("cobalt_ore", new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
 
     private static Block registerBlock(String name, Block block){

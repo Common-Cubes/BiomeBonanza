@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "biomebonanza:block/cobalt_ore"
+  }
+}
