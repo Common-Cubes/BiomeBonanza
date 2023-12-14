@@ -3,7 +3,10 @@
   "item.biomebonanza.rose_gold_ingot": "Rose Gold Ingot",
   "item.biomebonanza.copper_nugget": "Copper Nugget",
   "item.biomebonanza.netherite_nugget": "Netherite Nugget",
+  "item.biomebonanza.cobalt_ingot": "Cobalt Ingot",
+  "item.biomebonanza.raw_cobalt": "Raw Cobalt",
 
   "block.biomebonanza.raw_jade": "Block of Jade",
-  "block.biomebonanza.cobalt_ore": "Cobalt Ore"
+  "block.biomebonanza.cobalt_ore": "Cobalt Ore",
+  "block.biomebonanza.aquamarine_ore": "Aquamarine Ore"
 }

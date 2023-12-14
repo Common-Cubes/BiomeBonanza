@@ -16,16 +16,24 @@ public class ModItems {
   public static final Item ROSE_GOLD_INGOT = registerItem("rose_gold_ingot", new Item(new FabricItemSettings()));
   public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
   public static final Item NETHERITE_NUGGET = registerItem("netherite_nugget", new Item(new FabricItemSettings()));
+  public static final Item COBALT_INGOT = registerItem("cobalt_ingot", new Item(new FabricItemSettings()));
+  public static final Item RAW_COBALT = registerItem("raw_cobalt", new Item(new FabricItemSettings()));
 
   private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     entries.add(JADE);
     entries.add(ROSE_GOLD_INGOT);
     entries.add(COPPER_NUGGET);
     entries.add(NETHERITE_NUGGET);
+    entries.add(COBALT_INGOT);
+    entries.add(RAW_COBALT);
   }
   private static void addItemsToBuilingBlocksItemGroup(FabricItemGroupEntries entries) {
     entries.add(ModBlocks.RAW_JADE);
+  }
+
+  private static void addItemsToNatureItemGroup(FabricItemGroupEntries entries) {
     entries.add(ModBlocks.COBALT_ORE);
+    entries.add(ModBlocks.AQUAMARINE_ORE);
   }
   
 private static Item registerItem(String name, Item item) {
@@ -35,7 +43,8 @@ private static Item registerItem(String name, Item item) {
   public static void registerModItems() {
     BiomeBonanza.LOGGER.info("Registering a bonanza of mod items! (" + BiomeBonanza.MOD_ID + ")");
 
-    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuilingBlocksItemGroup);
+    ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemsToNatureItemGroup);
   }
 }
