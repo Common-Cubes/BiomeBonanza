@@ -6,7 +6,7 @@
 
 This is *Biome Bonanza*, a mod for the popular 3D survival game *Minecraft*. But you've already gathered that, haven't you? Maybe you have, maybe you haven't. Either way, **here's the deal.**
 
-# Our Goals
+## Our Goals
 
 What *Biome Bonanza* aims to achieve is a level of perfection most Minecraft modding projects **don't** achieve, Biome Bonanza want's to feel like it could be an *official update*. And **not just how the textures look** like most may strive for. *We want it to feel like something mojang could've made*, even in its imperfections. Because that's what makes minecraft so fun. *It's simple, complicated, and imperfect.* This is how Biome Bonanza **wants to feel.**
 
