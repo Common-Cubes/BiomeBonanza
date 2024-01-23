@@ -2,6 +2,8 @@
 # BiomeBonanza
 A World-Expanding Minecraft Mod.
 
+This Project is Currently Placed on Hold! (Sadly the main, and only, pc we currently use for code editing is out of space, so we can't install gradle. Sorry.)
+
 This Is Biome Bonanza, a mod for the popular 3D survival game Minecraft. But you've already gathered that, haven't you? Maybe you have, maybe you haven't. Either way, here's the deal.
 
 # Our Goals
